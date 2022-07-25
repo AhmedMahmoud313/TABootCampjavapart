@@ -7,3 +7,4 @@ public class variableassignmentactivity {
         System.out.println(A);
     }
 }
+
