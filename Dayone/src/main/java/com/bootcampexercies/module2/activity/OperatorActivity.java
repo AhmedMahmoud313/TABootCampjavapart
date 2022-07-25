@@ -5,6 +5,10 @@ public class OperatorActivity {
         int A=10;
         int B=20;
         int sum=A+B;
+
+
         System.out.println("The sum of two intgers is "+sum);
+
+
     }
 }
