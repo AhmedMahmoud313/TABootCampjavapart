@@ -5,7 +5,7 @@ public class Calculator {
 
         Scanner input=new Scanner(System.in);
 
-        int num1,num2,num3,total;
+        int num1,num2,total;
 
         double avg;
 
@@ -19,7 +19,7 @@ public class Calculator {
 
         num2=input.nextInt();
 
-        // num3=input.nextInt();
+
 
         total=sum(num1,num2);
 
