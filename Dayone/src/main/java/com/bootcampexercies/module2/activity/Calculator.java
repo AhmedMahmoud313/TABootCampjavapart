@@ -6,9 +6,7 @@ public class Calculator {
         Scanner input=new Scanner(System.in);
 
         int num1,num2,total;
-
         double avg;
-
         int mul;
         double sub;
         float divide;
@@ -18,8 +16,6 @@ public class Calculator {
         num1=input.nextInt();
 
         num2=input.nextInt();
-
-
 
         total=sum(num1,num2);
 
@@ -37,16 +33,12 @@ public class Calculator {
 
         return num1+num2;
 
-
-
     }
     public static int sub(int num1,int num2)
 
     {
 
         return num1-num2;
-
-
 
     }
 
@@ -61,11 +53,7 @@ public class Calculator {
 
     {
 
-
-
         return num1*num2;
-
-
 
     }
     private static int divide(int num1, int num2) {
