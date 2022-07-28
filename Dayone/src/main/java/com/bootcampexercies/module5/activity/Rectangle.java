@@ -18,8 +18,8 @@ public class Rectangle  extends Shape {
     public double getlength() {
         return length;
     }
-    public void setlength(double sideA) {
-        this.length = sideA;
+    public void setlength(double length) {
+        this.length = length;
     }
     public double getwidth() {
         return width;
@@ -28,7 +28,7 @@ public class Rectangle  extends Shape {
         this.width = width;
     }
     public double calculatePerimeter() {
-        return (length + width)*2;
+        return 2*(length + width);
     }
 
 }
