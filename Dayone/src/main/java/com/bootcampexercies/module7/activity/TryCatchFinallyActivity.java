@@ -9,7 +9,7 @@ public class TryCatchFinallyActivity {
     void catchMeIfYouCan() {
         int[] arr = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 
-        //TODO: use try
+
 
         try {
             for (int i = 0; i <= 10; i++) {
